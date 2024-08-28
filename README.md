@@ -15,18 +15,19 @@
 #### *2. Realizar un fork del repositorio*
    - *Paso 1*: Entra en el repositorio original en GitHub (Para este ejemplo, puedes omitir este paso).
    - *Paso 2*: Haz clic en el botón "Fork" en la esquina superior derecha.
-   - *Paso 3*: Esto creará una copia del repositorio en tu propia cuenta de GitHub.
+   - *Paso 3*: Debería redirigirte a una nueva página, no cambies el nombre del repo y simplemente da click en `Create fork`.
+   - *Paso 4*: Esto creará una copia del repositorio en tu propia cuenta de GitHub.
 
-#### *3. Clonación del repositorio forkeado*
-   - *Paso 4*: Clona/Descarga el repositorio forkeado en tu máquina local.
+#### *3. Descarga el repositorio*
+   - *Paso 4*: Descarga (Clona) el repositorio forkeado en tu máquina local.
      ```bash
-     git clone https://github.com/tu-usuario/repositorio.git
+     git clone https://URL-DEL-REPOSITORIO-FORKEADO
      ```
      
-   - *Paso 5*: Entra en el directorio del repositorio.
+   - *Paso 5*: El comando `git clone`, descargará el repositorio y creará una nueva carpeta con el nombre del mismo. Entra en el directorio del repositorio. Puedes hacerlo con el siguiente comando o simplemente desde Visual Studio _File_ -> _Open Folder_ -> _Selecciona la carpeta descargada_
 
       ```bash
-      cd repositorio
+      cd NOMBRE-DEL-REPOSITORIO
       ```
 
 #### *4. Creación de una nueva rama*
